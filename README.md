@@ -36,6 +36,10 @@
    - 例如：http://localhost:5173/404
    - 支持所有配置的错误码路径
 
+4. 生产环境
+   - 需要修改 `public/config.yaml` 内容为生产内容
+   - 然后执行 `npm run build` 构建生产包
+
 ## 目录结构
 ```
 ├── src
