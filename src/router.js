@@ -11,6 +11,7 @@ import Error503 from './pages/Error503.vue'
 import Error504 from './pages/Error504.vue'
 import Error505 from './pages/Error505.vue'
 import Error522 from './pages/Error522.vue'
+import Maintain from './pages/Maintain.vue'
 
 const routes = [
   { path: '/401', component: Error401 },
@@ -25,6 +26,7 @@ const routes = [
   { path: '/504', component: Error504 },
   { path: '/505', component: Error505 },
   { path: '/522', component: Error522 },
+  { path: '/maintain', component: Maintain },
   { path: '/:pathMatch(.*)*', redirect: '/404' }
 ]
 
